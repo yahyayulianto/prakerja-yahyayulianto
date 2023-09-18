@@ -1,6 +1,6 @@
 Menghitung luas dan keliling lingkaran
 ========================================
-STORE "panjang jari-jari lingkaran" (r).
+INPUT "panjang jari-jari lingkaran" (r).
 COUNT "luas lingkaran" = 3.14 * r * r.
 COUNT "keliling lingkaran" = 2 * 3.14 * r.
 DISPLAY "luas keliling lingkaran".
