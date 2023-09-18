@@ -1,0 +1,100 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* tambahkan CSS untuk section profile disini */
+section #profile, section{
+  display: flex;
+  flex-direction: row;
+}
+
+section #profile .profile-photo img {
+  border-radius: 60%;
+  border: 4px rgb(238, 130, 6) solid;
+}
+
+section #profile .profile-text {
+  padding: 20px;
+}
+
+section #profile .profile-text h1{
+  font-size: 30px;
+  margin: auto;
+}
+
+section #profile .profile-text h2{
+  font-size: 15px;
+  color: darkgrey;
+}
+
+section #profile .profile-text .action button {
+  height: 30px;
+  width: 60px;
+  background: linear-gradient(-60deg, blue 50%, green 50%);
+}
+
+section #detail table{
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  font-size: 18px;
+}
+
+section #detail table tr, td{
+  border-bottom: 1px solid;
+}
+
+section #detail table tr:hover{
+  background-color: coral;
+}
+
+
